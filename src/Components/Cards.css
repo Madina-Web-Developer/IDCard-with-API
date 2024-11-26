@@ -1,0 +1,93 @@
+
+.main_card{
+
+    @apply flex flex-wrap items-center gap-24 justify-center
+}
+
+.main_single_card{
+
+@apply p-[13px]  w-[220px] h-[350px] border-[3.5px] border-[solid] border-white
+
+bg-black ;
+
+position: relative;
+
+
+
+}
+
+.img_card {
+
+    @apply w-full h-[155px] bg-yellow-300 rounded-[5px] border-[4px] border-solid border-white;
+
+    clip-path: polygon(0 0, 0 100%, 100% 0);
+    
+}
+
+.head{
+
+    @apply flex justify-center items-center mt-1
+}
+
+.icon{
+
+    @apply text-green-600 text-[30px]
+}
+
+.head h1{
+
+    @apply text-[16px] text-rose-700 font-bold
+}
+
+.img_round{
+
+    @apply w-[120px] h-[120px] rounded-full  absolute z-10 top-[53px] left-[54px] border-[4px] border-solid border-white
+}
+
+.img_round img{
+
+    @apply w-[115px] h-[115px] rounded-full
+}
+
+.info_card{
+
+    @apply bg-yellow-300 w-full h-[160px] rounded-[5px] border-[4px] border-solid border-white;
+
+    clip-path: polygon(70% 100%, 100% 100%, 100% 70%);  position: absolute; top: 50%; right: 5%;
+}
+
+.i_head h2{
+
+    @apply text-white font-bold text-[19px] text-center mt-2
+}
+
+.p_c{
+
+    @apply flex justify-center items-center
+}
+
+.position{
+
+    @apply bg-yellow-300 rounded-[50px] w-[100px] 
+}
+
+.position h3{
+
+    @apply text-[12px] font-semibold text-black text-center
+
+}
+
+.others p{
+
+    @apply text-[15px] text-white font-bold
+}
+
+.others{
+
+    @apply mt-4 z-30 absolute 
+}
+
+span {
+
+    @apply text-white text-[12px]
+}
